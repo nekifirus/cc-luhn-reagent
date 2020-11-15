@@ -1,34 +1,41 @@
 body {
   font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
-  max-width: 600px;
-  margin: 0 auto;
-  padding-top: 72px;
-  -webkit-font-smoothing: antialiased;
   font-size: 1.125em;
   color: #333;
-  line-height: 1.5em;
 }
 
-h1, h2, h3 {
-  color: #000;
-}
-h1 {
-  font-size: 2.5em
-}
-
-h2 {
-  font-size: 2em
-}
-
-h3 {
-  font-size: 1.5em
+#app {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
 }
 
-a {
-  text-decoration: none;
-  color: #09f;
+.header {
+    font-size: 2.25em;
 }
 
-a:hover {
-  text-decoration: underline;
+input {
+    display: flex;
+    font-size: 2.1em;
+    width: 50%;
+    height: 10%;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.invalid {
+    box-shadow: 10px 10px 160px 20px red;
+}
+
+.valid {
+    box-shadow: 10px 10px 160px 20px green,
+                inset 0px 0px 20px 2px green;
+}
+
+.footer {
+    font-size: 1.1em; 
 }
