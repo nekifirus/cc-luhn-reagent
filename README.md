@@ -6,7 +6,8 @@ To start the Figwheel compiler, navigate to the project folder and run the follo
 lein figwheel
 ```
 
-Figwheel will automatically push cljs changes to the browser.
+Figwheel will automatically push cljs changes to the browser. 
+Figweel will automatically run tests on every change.
 Once Figwheel starts up, you should be able to open the `public/index.html` page in the browser.
 
 ### REPL
